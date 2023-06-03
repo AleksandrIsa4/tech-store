@@ -1,0 +1,348 @@
+{
+	"info": {
+		"_postman_id": "9b834b59-9772-48b8-9780-5d0be5745e9b",
+		"name": "TestAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numer\": \"123\",\r\n    \"producer\": \"qwe\",\r\n    \"price\": 35.55,\r\n    \"quantity\":999,\r\n    \"attribute\": \"asd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog?type=Монитор",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Монитор"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numer\": \"456\",\r\n    \"producer\": \"qwe\",\r\n    \"price\": 315.55,\r\n    \"quantity\":9919,\r\n    \"attribute\": \"zxc\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog?type=Монитор",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Монитор"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numer\": \"991\",\r\n    \"producer\": \"poi\",\r\n    \"price\": 3115.55,\r\n    \"quantity\":79,\r\n    \"attribute\": \"lsdfsdfsd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog?type=Настольные компьютеры",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Настольные компьютеры"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 9",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numer\": \"876\",\r\n    \"producer\": \"jhg\",\r\n    \"price\": 3115.55,\r\n    \"quantity\":79,\r\n    \"attribute\": \"Моноблок\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog?type=Настольные компьютеры",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Настольные компьютеры"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numer\": \"123qwe\",\r\n    \"producer\": \"jhg\",\r\n    \"price\": 35.55,\r\n    \"quantity\":999,\r\n    \"attribute\": \"lsdfsdfsd\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog?type=Ноутбуки",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Ноутбуки"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numer\": \"777\",\r\n    \"producer\": \"jhg\",\r\n    \"price\": 135.55,\r\n    \"quantity\":99999,\r\n    \"attribute\": \"88\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog?type=Монитор",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Монитор"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 8",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quantity\":33\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog/3?type=Монитор",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog",
+						"3"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Монитор"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numer\": \"665467uyt\",\r\n    \"producer\": \"vvvvv\",\r\n    \"price\": 85.55,\r\n    \"quantity\":111,\r\n    \"attribute\": \"55\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/catalog/1?type=Монитор",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog",
+						"1"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Монитор"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/catalog/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 10",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/catalog/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/catalog?type=Монитор Copy 7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/catalog?type=Монитор",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "Монитор"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
